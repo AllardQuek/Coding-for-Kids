@@ -1,11 +1,11 @@
-# Find faces in picture
+# Find faces in picture: https://github.com/ageitgey/face_recognition#installation
 # https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_picture.py
 
 from PIL import Image
 import face_recognition
 
 # Load the jpg file into a numpy array
-image = face_recognition.load_image_file("office.jpg")
+image = face_recognition.load_image_file("famous-composers.jpg")
 
 # Find all the faces in the image using the default HOG-based model.
 # This method is fairly accurate, but not as accurate as the CNN model and not GPU accelerated.
