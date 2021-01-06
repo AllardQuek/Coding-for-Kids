@@ -5,6 +5,7 @@ import face_recognition
 import numpy as np
 from PIL import Image, ImageDraw
 
+# Image Source: http://www.bach-cantatas.com/thefaceofbach/QCL09.htms
 # Load a sample picture and learn how to recognize it.
 known_image = face_recognition.load_image_file("bach.jpg")
 encoding = face_recognition.face_encodings(known_image)[0]

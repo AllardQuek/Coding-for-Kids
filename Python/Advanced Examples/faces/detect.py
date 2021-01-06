@@ -4,7 +4,8 @@
 from PIL import Image
 import face_recognition
 
-# Load the jpg file into a numpy array
+# Image Source: https://www.famouscomposers.net/
+# Load the jpg file into a numpy array: 
 image = face_recognition.load_image_file("famous-composers.jpg")
 
 # Find all the faces in the image using the default HOG-based model.
