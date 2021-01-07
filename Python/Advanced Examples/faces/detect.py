@@ -6,7 +6,7 @@ import face_recognition
 
 # Image Source: https://www.famouscomposers.net/
 # Load the jpg file into a numpy array: 
-image = face_recognition.load_image_file("famous-composers.jpg")
+image = face_recognition.load_image_file("famous_composers.jpg")
 
 # Find all the faces in the image using the default HOG-based model.
 # This method is fairly accurate, but not as accurate as the CNN model and not GPU accelerated.
